@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+   <html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="style.css">
+
+      <title>Hugo</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="index.html" class="nav__logo">Hugo</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Inicio</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">Sobre Mí</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="work.html" class="nav__link">Portfolio</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact.html" class="button">Contáctame</a>
+                    </li>
+                </ul>
+
+                <!-- Close Button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!-- Theme Button-->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button-->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section">
+            <div class="home__rectangle"></div>
+
+            <div class="home__container container grid">
+                <div class="home__perfil perfil">
+                    <div class="perfil__content">
+                        <img src="images/hugo-profile.png" alt="image" class="perfil__img">
+                    </div>
+                </div>
+
+                <div class="home__content grid">
+                    <div class="home__data grid">
+                        <h1 class="home__name">Hugo Gómez</h1>
+
+                        <h2 class="home__profession">Diseñador Gráfico</h2>
+
+                        <div class="home__social">
+                            <a href="https://instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+
+                            <a href="https://mail.google.com" target="_blank" class="home__social-link">
+                                <i class="ri-mail-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <a href="pdf/CV..pdf" download="" class="home__button button">Download CV</a>
+                </div>  
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <h2 class="section__title">
+                Mis <br>
+                Servicios
+            </h2>
+            
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-pen-nib-line services__icon"></i>
+                    <h2 class="services__title">Diseñador Web</h2>
+                    <p class="services__description">
+                        Diseños web estéticos, funcionales y adaptados a las necesidades únicas de cada cliente.
+                    </p>
+
+                    <br>
+
+
+                    <button class="services__button button">Conoce Más</button>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="ri-close-line services__modal-close"></i>
+
+                            <h2 class="services__modal-title">Diseñador Web</h2>
+
+                            <ul class="services__modal-list grid">
+                                <li class="services__modal-item">
+                                    Crear sitios web profesionales y de calidad a petición del cliente.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Hago diseño web en prototipos.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Posiciono tu sitio web con SEO avanzado.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Resuelvo problemas de rendimiento en páginas web.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-layout-2-line services__icon"></i>
+                    <h2 class="services__title">Interfaces UI/UX</h2>
+                    <p class="services__description">
+                        Diseño de experiencias cautivadoras y amigables para el usuario, donde la estética se encuentra con la funcionalidad.
+                    </p>
+
+                    <button class="services__button button">Conoce Más</button>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="ri-close-line services__modal-close"></i>
+
+                            <h2 class="services__modal-title">Interfaces UI/UX</h2>
+
+                            <ul class="services__modal-list grid">
+                                <li class="services__modal-item">
+                                    Diseño intuitivo y agradable.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Enfoque en tus necesidades para máxima satisfacción.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Diseño sin problemas en todos tus dispositivos.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Comprometido a optimizar con tu feedback.
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+         </section>
+
+         <!--==================== WORK ====================-->
+         <section class="work section">
+            <h2 class="section__title">
+                Mis trabajos <br>
+                más recientes
+            </h2>
+
+            <div class="work__container container grid">
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <img src="images/work-3.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Impresionante aplicación</h2>
+                    <span class="work__subtitle">Diseño de aplicaciones</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <img src="images/work-4.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Impresionante aplicación</h2>
+                    <span class="work__subtitle">Diseño de aplicaciones</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <img src="images/work-5.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Diseño de interfaz</h2>
+                    <span class="work__subtitle">UI/UX</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <img src="images/work-6.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Diseño de inrtefaz</h2>
+                    <span class="work__subtitle">UI/UX</span>
+                </article>
+            </div>
+         </section>
+
+         <!--==================== TESTIMONIAL ====================-->
+         <section class="testimonial section">
+            <h2 class="section__title">
+                ¿Qué dicen ellxs <br>
+                sobre mí?
+            </h2>
+
+            <div class="testimonial__container container">
+                <div class="testimonial__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="testimonial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="images/testimonial-1.png" alt="image" class="testimonial__img">
+                            </div>
+
+                            <h2 class="testimonial__name">Jen Will</h2>
+                            <p class="testimonial__description">
+                                Contraté un proyecto y los servicios fueron de calidad, el trabajo entregado es de buen contenido, excelente trabajo.
+                            </p>
+                        </article>
+
+                        <article class="testimonial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="images/testimonial-2.png" alt="image" class="testimonial__img">
+                            </div>
+
+                            <h2 class="testimonial__name">Rial Loz</h2>
+                            <p class="testimonial__description">
+                                Quedamos impresionados con la creatividad y profesionalismo del diseñador. Logró transformar completamente la imagen de nuestra empresa, y ahora nos destacamos en el mercado. Gracias por hacer de nuestro sueño una realidad.
+                            </p>
+                        </article>
+
+                        <article class="testimonial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="images/testimonial-3.png" alt="image" class="testimonial__img">
+                            </div>
+
+                            <h2 class="testimonial__name">Mey Doth</h2>
+                            <p class="testimonial__description">
+                                ¡Increíble trabajo! Nuestra marca ahora tiene una identidad visual única y atractiva, gracias al talentoso equipo. Estamos encantados con el resultado y recibimos elogios constantes. Altamente recomendado.
+                            </p>
+                        </article>
+
+                        <article class="testimonial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="images/testimonial-4.png" alt="image" class="testimonial__img">
+                            </div>
+
+                            <h2 class="testimonial__name">Celi Phet</h2>
+                            <p class="testimonial__description">
+                                No podría estar más satisfecho con el servicio. La atención al cliente y habilidades creativas hicieron que el proceso fuera fluido y eficiente. Definitivamente, mi elección número uno para diseño.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section">
+            <div class="contact__container container grid">
+                <h2 class="section__title">
+                    Hablemos <br>
+                    de tu proyecto.
+                </h2>
+
+                <a href="contact.html" class="contact__button button">Contáctame</a>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <a href="index.html" class="footer__logo">Hugo</a>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="about.html" class="footer__link">Sobre Mí</a>
+                    </li>
+
+                    <li>
+                        <a href="work.html" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="footer__link">Contáctame</a>
+                    </li>
+                </ul>
+
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Todos los derechos reservados por NilS
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="main.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="swiper-bundle.min.js"></script>
+
+      <!--=============== INDEX JS ===============-->
+      <script src="index.js"></script>
+   </body>
+</html>
